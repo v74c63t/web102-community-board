@@ -1,11 +1,13 @@
 import './Card.css'
 
-const Card = ({title, description, link}) => {
+const Card = ({img, title, description, link, color}) => {
+  console.log(img, title, description, link, color)
   return (
-    <div className='card'>
-      <h3>{title}</h3>
-      <h5>{description}</h5>
-      <a href={link}>link</a>
+    <div className='card' style={{backgroundColor: color}}>
+      <img src={img} alt='event img'/>
+      <h2>{title}</h2>
+      <h4>{description}</h4>
+      <a href={link}>Event Cards</a>
     </div>
   )
 }
