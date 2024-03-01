@@ -8,7 +8,7 @@ function App() {
   
   return (
     <>
-      <h1 className="title">COMMUNITY BOARD</h1>
+      <h1 className="title">PROJECT SEKAI EVENTS</h1>
       <div className="container">
         {eventData.map((event, i) => {
           return (
