@@ -2,21 +2,22 @@
 
 Submitted by: **Vanessa Tang**
 
-This web app: **insert description**
+This web app: **compiles information about events for the mobile rhythm game Project SEKAI COLORFUL STAGE! feat. Hatsune Miku. Each card display basic information about the event such as the event name, 
+event description, and so on. It also contains links to the event cards, the event story on the official YouTube channel, and the 2DMV of the commission song if the event has one.**
 
-Time spent: **X** hours spent in total so far: ~4 hr
+Time spent: **X** hours spent in total so far: ~14 hrs
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] **There is a unique theme for events or resources relevant to a specific community**
-- [ ] **At least 10 unique resources or events are displayed in a responsive card format**
+- [x] **There is a unique theme for events or resources relevant to a specific community**
+- [x] **At least 10 unique resources or events are displayed in a responsive card format**
 
 The following **optional** features are implemented:
 
-- [ ] Buttons or links to a related resources are on each card component
-- [ ] The site is responsive for both desktop and mobile formats
+- [x] Buttons or links to a related resources are on each card component
+- [x] The site is responsive for both desktop and mobile formats
 
 The following **additional** features are implemented:
 
