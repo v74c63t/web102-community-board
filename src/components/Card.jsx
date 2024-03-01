@@ -14,7 +14,7 @@ const Card = ({event}) => {
       </div>
       <div className='link-container'>
         {event["eventLinks"].map((eventLink, i) => {
-          return <Button link = {eventLink["link"]}>{eventLink["text"]}</Button>
+          return <Button key={i} link = {eventLink["link"]}>{eventLink["text"]}</Button>
         })}
       </div>
     </div>
