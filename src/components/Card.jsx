@@ -1,13 +1,22 @@
 import './Card.css'
+import Button from './Button'
 
-const Card = ({img, title, description, link, color}) => {
-  console.log(img, title, description, link, color)
+const Card = ({event}) => {
+
   return (
-    <div className='card' style={{backgroundColor: color}}>
-      <img src={img} alt='event img'/>
-      <h2>{title}</h2>
-      <h4>{description}</h4>
-      <a href={link}>Event Cards</a>
+    <div className='card' style={{backgroundColor: event["color"]}}>
+      <img src={`../../src/assets/images/${event["eventName"]}.png`} alt='event img'/>
+      <div className="title-container">
+        <h2>{event["eventName"]}</h2>
+      </div>
+      <div className="description-container">
+        <h4>{event["eventDescription"]}</h4>
+      </div>
+      <div className='link-container'>
+        {event["eventLinks"].map((eventLink, i) => {
+          return <Button link = {eventLink["link"]}>{eventLink["text"]}</Button>
+        })}
+      </div>
     </div>
   )
 }

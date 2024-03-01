@@ -14,11 +14,7 @@ function App() {
           return (
             <Card 
               key={i}
-              img = {`../../src/assets/images/${event["eventName"]}.png`} 
-              title = {event["eventName"]}
-              description = {event["eventDescription"]}
-              link = {event["eventCards"]}
-              color = {event["color"]} />
+              event = {event}/>
             )
         })}
       </div>

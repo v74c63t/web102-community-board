@@ -1,12 +1,25 @@
 .card {
   border-radius: 0.5rem;
-  /* background-color: lightblue; */
   width: 24rem;
-  height: fit-content;
   text-align: center;
   padding-top: 0.8rem;
   padding-bottom: 0.8rem;
   margin: 1rem;
+}
+
+.link-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+.title-container {
+  height: 3rem;
+}
+
+.description-container {
+  height: 8rem;
 }
 
 img {
