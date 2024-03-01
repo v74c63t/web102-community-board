@@ -4,7 +4,7 @@ Submitted by: **Vanessa Tang**
 
 This web app: **insert description**
 
-Time spent: **X** hours spent in total so far: ~1 hr
+Time spent: **X** hours spent in total so far: ~4 hr
 
 ## Required Features
 
