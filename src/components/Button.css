@@ -5,6 +5,7 @@
   text-decoration: none;
   color: black;
   border: black solid;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .link:hover{
