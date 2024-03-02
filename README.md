@@ -5,7 +5,7 @@ Submitted by: **Vanessa Tang**
 This web app: **compiles information about events for the mobile rhythm game Project SEKAI COLORFUL STAGE! feat. Hatsune Miku. Each card display basic information about the event such as the event name, 
 event description, and so on. It also contains links to the event cards, the event story on the official YouTube channel, and the 2DMV of the commission song if the event has one.**
 
-Time spent: **X** hours spent in total so far: ~14 hrs
+Time spent: **15** hours spent in total
 
 ## Required Features
 
@@ -27,10 +27,10 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with [Kap](https://getkap.co/)  
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -39,6 +39,8 @@ GIF created with ...
 ## Notes
 
 Describe any challenges encountered while building the app.
+
+Most of the challenges I ran into had to deal with getting images to show up on the web app.
 
 ## License
 
