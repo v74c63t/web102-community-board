@@ -40,7 +40,7 @@ GIF created with [Kap](https://getkap.co/)
 
 Describe any challenges encountered while building the app.
 
-Most of the challenges I ran into had to deal with getting images to show up on the web app.
+Most of the challenges I ran into had to deal with getting images to show up on the web app. Originally, I planned on linking src to images online, but ran into issues with getting it to display. I ran into problems with CORS so I was not able to do that and had to resort to downloading all the images into the repo and linking to that.
 
 ## License
 
